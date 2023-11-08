@@ -1,0 +1,33 @@
+body .Ready_to_Switch {
+  border-radius: 10px;
+  background: #8bd4d6;
+}
+.Ready_to_Switch {
+  width: 1150px;
+  height: 283px;
+  border-radius: 10px;
+  background: #8bd4d6;
+  margin-top: 108px;
+  margin-left: 145px;
+}
+.conteiner .Ready_to_Switch__content {
+  padding: 89px 90px;
+}
+.Ready_to_Switch__button {
+  width: 159px;
+  height: 50px;
+  border-radius: 100px;
+  background: #000;
+  color: #fff;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Ready_to_Switch__content {
+  display: flex;
+  justify-content: space-between;
+}
+.Ready_to_Switch__button {
+  margin-top: 50px;
+}
