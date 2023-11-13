@@ -40,3 +40,8 @@
   margin-left: 22px;
   text-decoration: none;
 }
+@media (max-width: 1314px) {
+  .header__info nav ul li {
+    display: none;
+  }
+}

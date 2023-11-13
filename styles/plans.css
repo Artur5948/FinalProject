@@ -9,6 +9,7 @@
 }
 body .plans {
   background: #fdeced;
+  width: 100%;
 }
 .plans__info_second img {
   margin-top: 63px;
@@ -73,4 +74,15 @@ body .plans {
 }
 .conteiner .plans__content {
   padding-top: 88px;
+}
+.plans__info_second {
+  margin-right: 50px;
+}
+.plans__info_second2 {
+  margin-right: 50px;
+}
+@media (max-width: 1200px) {
+  body .plans {
+    background: #fdeced;
+  }
 }

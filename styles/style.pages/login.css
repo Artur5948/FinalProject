@@ -239,11 +239,36 @@ a.ssolink {
   font-family: "Poppins", sans-serif;
   background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
   position: absolute;
-  top: 700px;
   left: 620px;
+  top: 720px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
   font-size: 30px;
+}
+@media (max-width: 850px) {
+  .login__back {
+    position: absolute;
+    left: 340px;
+  }
+}
+@media (max-width: 550px) {
+  .login__back {
+    position: absolute;
+    left: 200px;
+  }
+}
+@media (max-width: 410px) {
+  .login__back {
+    position: absolute;
+    left: 140px;
+  }
+}
+@media (max-width: 385px) {
+  .login__back {
+    position: absolute;
+    left: 100px;
+    top: 900;
+  }
 }
